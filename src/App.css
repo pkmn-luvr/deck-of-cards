@@ -1,0 +1,43 @@
+/* Further Study 1 - Basic Styling */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff69b4; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1493; 
+}
+
+button:disabled {
+  background-color: #f8c6d1; 
+  cursor: not-allowed;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.card-image {
+  max-width: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+  transform: translateY(-5px);
+}
